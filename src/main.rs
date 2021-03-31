@@ -3,7 +3,7 @@ use sign::{verify_sign, send_sign};
 /*
  * @Author: your name
  * @Date: 2021-03-30 10:44:21
- * @LastEditTime: 2021-03-31 10:39:09
+ * @LastEditTime: 2021-03-31 10:49:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  *
@@ -11,7 +11,7 @@ use sign::{verify_sign, send_sign};
  */
  
 fn main() {
-    let sign = "C9s1PRX+RdSOtr2C77cJ9TLIqLCXPeWXkniL6BHVUwlNRdgJXlE33DayytD6r/WqksYqGAIT0JWBuLQxh9VdrtgTlGYqabLrg3orUD5vV9cPbAXk7GTJ6kAgBr3wL6Ub+IaKqgXaYRxhUx8hR56yv8a4WIy4JZZW1Thj3DJDCRcsAtPjYqdKOxEhfyLmoQkkr5q9kwNXea13O+ykO2tFmIuekz/4cjrpLmNa3sVdj6qJmijbzvKkJ89+/SUlDI6iKVtbRLDDafwiDIDPk7pG0hb/D+A9MQow38+4eSYJiKpK71M5zr5IMGpoHXXSVHomVoZhhI/LWK8fi3uRaKkubw==";
+    let _ = "C9s1PRX+RdSOtr2C77cJ9TLIqLCXPeWXkniL6BHVUwlNRdgJXlE33DayytD6r/WqksYqGAIT0JWBuLQxh9VdrtgTlGYqabLrg3orUD5vV9cPbAXk7GTJ6kAgBr3wL6Ub+IaKqgXaYRxhUx8hR56yv8a4WIy4JZZW1Thj3DJDCRcsAtPjYqdKOxEhfyLmoQkkr5q9kwNXea13O+ykO2tFmIuekz/4cjrpLmNa3sVdj6qJmijbzvKkJ89+/SUlDI6iKVtbRLDDafwiDIDPk7pG0hb/D+A9MQow38+4eSYJiKpK71M5zr5IMGpoHXXSVHomVoZhhI/LWK8fi3uRaKkubw==";
 let file_content = r#"
 -----BEGIN RSA PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAimFB73SETSDJWBOLXlFj
