@@ -1,6 +1,6 @@
 [package]
 name = "rsa_sign"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["wuhaurou <wobusbz2019@qq.com>"]
 edition = "2018"
 description = "rsa_sign"
