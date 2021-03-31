@@ -3,7 +3,7 @@ use sign::{verify_sign, send_sign};
 /*
  * @Author: your name
  * @Date: 2021-03-30 10:44:21
- * @LastEditTime: 2021-03-31 10:49:32
+ * @LastEditTime: 2021-03-31 11:33:03
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  *
@@ -30,7 +30,7 @@ MIIEowIBAAKCAQEAimFB73SETSDJWBOLXlFj8073mJTqHBHgdquOyScd2MJNdbUD+DWWtJ6u6LO18oah
 -----END RSA PRIVATE KEY-----
 "#;
     let sign_string = send_sign::send_sign(private_file_content, &"a=2&b=3&c=4");
-    println!("{}", sign_string);
+    assert_eq!(sign_string.is_empty(), false);
     let is_ok = verify_sign::verify_sign(file_content, &sign_string, "a=2&b=3&c=4".to_string());
-    println!("{:?}", is_ok);
+    assert_eq!(is_ok, true);
 }
